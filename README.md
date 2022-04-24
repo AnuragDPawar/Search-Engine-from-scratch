@@ -5,3 +5,12 @@ The project consists of five phases of building a basic search engine from scrat
 1. Parsing the HTML document using BeautifulSoap (Version: 4.9.2)
 2. Cleaning the parsed string using RegEx
 3. Tokenizing the words from the cleaned document using NLTK 3.7
+
+## Phase 2 : Term Weighting
+1. Creating a global corpus dictionary: HashMap is created to calculate the number of occurrences of a token in all the documents.
+2. Pre-processing each file: Removing the stopwords and words with length 1.
+3. Calculating all the required values: 
+  - Term frequency = no. of occurrences token/total no. of tokens in the document
+  - Document frequency = no. of occurrences of a token in all 500 documents
+  - Inverse document frequency = log(no. of documents/ document frequency)
+  - Weight of token = term frequency * inverse document frequency
