@@ -1,0 +1,13 @@
+c 1
+http 1
+jzr 1
+p 1
+r 1
+sr 1
+url 1
+www 4
+wwwmicrosoftcom 1
+x 3
+xgi 1
+zjw 1
+zr 1
