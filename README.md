@@ -14,3 +14,15 @@ The project consists of five phases of building a basic search engine from scrat
   - Document frequency = no. of occurrences of a token in all 500 documents
   - Inverse document frequency = log(no. of documents/ document frequency)
   - Weight of token = term frequency * inverse document frequency
+
+## Phase 3 : Indexing
+1. All the steps from phase 2 are repeated.
+2. Writing the Posting file: HashMap is then passed to a function which writes the files with the number of documents in which that token has occurred and its tfidf.
+3. Writing the Dictionary file: HashMap is passed to another function which writes the token, number of occurrences of that token in all documents and sum of the frequency of previous token and its occurrence
+
+
+## Phase 4 : Retrieval
+
+
+## Phase 4 : Document Clustering
+
